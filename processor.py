@@ -1,4 +1,4 @@
-from helper import translateSide, getLinearPrice, checkOrdersExists
+from helper import translateSide, getLinearPrice
 from collections import OrderedDict
 from conn_discord import bot, send_message
 import asyncio
