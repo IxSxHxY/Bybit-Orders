@@ -14,7 +14,7 @@ def getLinearPrice(symbol: str) -> str:
     url = f"https://api-testnet.bybit.com/v5/market/tickers?category=linear&symbol={symbol}"
     payload={}
     headers = {}
-    response = requests.request("GET", url, headers=headers, data=payload)
+    response = requests.get(url, headers=headers, data=payload)
     # print(response.json())
     return response.json()["result"]["list"][0]["lastPrice"]
 

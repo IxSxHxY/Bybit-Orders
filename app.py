@@ -10,7 +10,7 @@ load_dotenv()
 
 discord_token = os.environ.get('DISCORD_TOKEN')
 api_key = os.environ.get('BYBIT_API_TOKEN')
-api_secret = os.environ.get('lrSryPniO6HIk3sb6rcf0InCNXOITp7dyqjo')
+api_secret = os.environ.get('BYBIT_API_SECRET')
 
 ws = WebSocket(
     testnet=True,
