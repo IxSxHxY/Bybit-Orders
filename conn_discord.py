@@ -95,7 +95,3 @@ async def remove_listening_channel(ctx):
         listening_channel.remove(ctx.channel) 
         print(listening_channel)
         await ctx.send("This channel will not listen anymore")
-
-
-# Run the bot with your token
-# bot.run('MTIxMjk4OTgzNzQxODY5MjYyOA.GyyGOX.yijTHn3ImsAAih5KLLpz_nXFyUPUO5GIAtP7ck')
